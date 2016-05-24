@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="3" versioncode="12" >
+        <change>• updated Su To latest 2.72.</change>
+        <change>• MultiDpi ## please adjust with few glitches  , its not that easy.</change>
+        <change>• Fixed Private Mode.</change>
+        <change>• More debloated reduced size from 890 mb to 850 mb.</change>
+        <change>• Fixed link to action in action memo.</change>
+        <change>• Removed grey status bar while power saving mode.</change>
+        <change>• Fixed Screen Cast Fc.</change>
+        <change>• Nameless Control : </change>
+        <change>• All New Design For naMMeless Control.</change>
+        <change>• Added Ability To color Wifi Icon.</change>
+        <change>• Added Ability To color Signal Icon.</change>
+        <change>• Added Ability To color Statusbar Icon.</change>
+        <change>• Added Ability To color Stock Battery.</change>
+        <change>• Added Ability To Hide/Show Battery Text.</change>
+        <change>• Added Ability To Hide/Show Battery Percentage Inside Battery.</change>
+        <change>• Added Ability To Choose Between 3Minit And Stock Battery.</change>
+        <change>• Added Internet Meter.</change>
+        <change>• Added Ability To Change Singal Count 4/5/6.</change>
+        <change>• Quick Panel Mods :</change>
+        <change>• Added Ability To Hide/Show SFinder n Quick Connect.</change>
+        <change>• Added Ability To Choose Toggles Numbers.</change>
+        <change>• Added Ability To Choose Toggles Back Grounds.</change>
+        <change>• Added Ability To Color Header.</change>
+        <change>• Added Ability To Color Quick Toggle Back Ground.</change>
+        <change>• Added Ability To Color Brightness Back Ground.</change>
+        <change>• Added Ability To Color Sfinder Back Ground.</change>
+        <change>• Added Ability To Color Clock In Quick Panel Header.</change>
+        <change>• Added Ability To Color Icons In Quick Panel Header.</change>
+        <change>• Added Ability To Color Notifications Back Ground.</change>
+        <change>• Added Ability To Hide/Show On Going Notifications.</change>
+        <change>• Added Heads Up Notifications.</change>
+    </release>
+    <release version="2" versioncode="11" >
+        <change>• Fixed lock screen setup fc // now you can set lockscreen.</change>
+        <change>• Removed sd notification // on each boot.</change>
+        <change>• Removed Knox Info from about device.</change>
+        <change>• Added Few More Tweaks For stability and battery.</change>
+        <change>• Added all apps in multi window.</change>
+        <change>• All New naMMeless Control :.</change>
+        <change>• Added Ad blocker in naMMeless control.</change>
+        <change>• Added Battery Callibration.</change>
+        <change>• Added gradient statusbar.</change>
+        <change>• Added working Xposed For MM 910 G too.</change>
+        <change>• Added clock mods / center/left/right and much more.</change>
+        <change>• Added ram cleaner in quick setting panel.</change>
+        <change>• Added next alaram on lock screen.</change>
+        <change>• Added auto call record.</change>
+        <change>• Added call end delay.</change>
+        <change>• Added toggle for incremental ringtone.</change>
+        <change>• Added quick toggle count.</change>
+        <change>• Added option to switch between quad view and stock multi window view.</change>
+        <change>• Added bloatware in naMMeless control.</change>
+    </release>
+    <release version="1" versioncode="10">
+        <change>First release</change>
+    </release>
+</changelog>

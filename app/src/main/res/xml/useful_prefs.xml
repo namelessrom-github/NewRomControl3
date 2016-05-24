@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="DPI Changer">
+        <PreferenceScreen android:title="Dpi Changer" android:key="com.texdroider.texdroider_dpi.texdroider_dpi" android:summary="Choose your liking" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Root Stuff">
+        <PreferenceScreen android:title="Terminal" android:key="jackpal.androidterm.Term" android:summary="Device Access Control" />
+        <PreferenceScreen android:title="SuperSu" android:key="eu.chainfire.supersu.MainActivity" android:summary="Root Access Control" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="increased sound during media playback">
+        <PreferenceScreen android:icon="@drawable/musiclogo" android:title="Enjoy Your Music" android:key="script#soundmodon" />
+        <PreferenceScreen android:icon="@drawable/musiclogo" android:title="Revert To Stock Sound" android:key="script#soundmodoff" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="V4a Lovers">
+        <PreferenceScreen android:icon="@drawable/viper" android:title="Viper4Android" android:summary="">
+            <intent android:targetPackage="com.vipercn.viper4android_v2" android:action="android.intent.category.DEFAULT" android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Dolby Effects">
+        <PreferenceScreen android:icon="@drawable/dolby" android:title="Dolby Effects" android:summary="">
+            <intent android:targetPackage="com.atmos.daxappUI" android:action="android.intent.category.DEFAULT" android:targetClass="com.atmos.daxappUI.MainActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="On Going Notifications">
+        <SwitchPreference android:title="Make Ongoing Notifications Removable" android:key="ongoing_notifications" android:defaultValue="false" android:summaryOn="Ongoing Notifications are removeable" android:summaryOff="Ongoing Notifications are permanent" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="HeadsUp Notifications">
+        <SwitchPreference android:title="Heads Up Notifications" android:key="heads_up_notifications_enabled" android:defaultValue="0" android:summaryOn="Heads Up Enabled" android:summaryOff="Heads Up Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Safe Volume">
+        <SwitchPreference android:title="Safe Volume Toggle" android:key="volume_warning_toggle" android:defaultValue="0" android:summaryOn="Safe Volume Enabled" android:summaryOff="Safe Volume Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Ad Blocker">
+        <PreferenceScreen android:title="Block Ads" android:key="script#blockhost"  />
+        <PreferenceScreen android:title="Revert" android:key="script#stock_host"  />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Battery Callibration">
+        <PreferenceScreen android:title="Callibrate Your Battery" android:key="script#batterycalibration" android:summary="Device Will Reboot" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Select MultiWindow Style">
+        <PreferenceScreen android:title="Quad View # 4 Windows # use in landscape mode" android:key="script#quad" />
+        <PreferenceScreen android:title="Stock View # 2 Windows at a time" android:key="script#stockmw" />
+    </PreferenceCategory>
+</PreferenceScreen>

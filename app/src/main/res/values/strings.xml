@@ -1,0 +1,143 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Nammeless Control</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="nav_drawer_items">
+        <item>SystemUI Mods</item>
+        <item>Phone Mods</item>
+        <item>Quick Panel Mods</item>
+        <item>Music Lovers</item>
+        <item>Misc Mods</item>
+        <item>Useful Apps</item>
+        <item>Downloads</item>
+        <item>About Nameless Team</item>
+        <item>Donate</item>
+        <item>Changelog</item>
+        <item>Backup/Restore</item>
+    </string-array>
+    <string-array name="traffic_entries">
+        <item>Disabled</item>
+        <item>Outgoing</item>
+        <item>Incoming</item>
+        <item>Show Both</item>
+    </string-array>
+    <string-array name="traffic_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_update_entries">
+        <item>500 ms</item>
+        <item>1000 ms</item>
+        <item>1500 ms</item>
+        <item>2000 ms</item>
+    </string-array>
+    <string-array name="traffic_update_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="traffic_unit_entries">
+        <item>Bits per second</item>
+        <item>Bytes per second</item>
+        <item>KiloBytes per second</item>
+    </string-array>
+    <string-array name="traffic_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="signal_entries">
+        <item>4 bars</item>
+        <item>5 bars</item>
+        <item>6 bars</item>
+    </string-array>
+    <string-array name="signal_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Right clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="some_entries">
+        <item>Right clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="some_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string-array name="theme_items">
+        <item>Dark theme</item>
+        <item>Light theme</item>
+    </string-array>
+    <string name="missing_su">Your device is either not rooted or the app was denied root permissions.\n\nPlease check your root/su status and try again later.</string>
+    <string name="exit">Exit App</string>
+    <string name="gaining_root">Acquiring root access. Please wait...</string>
+    <string name="missing_su_title">Could not get root access</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theme_chooser_dialog_title">Choose Theme</string>
+    <string name="app_reboot_required_title">App Reboot Required</string>
+    <string name="app_reboot_required_message">%1$s reboot is required for the changes to take effect.\n\nReboot now?</string>
+    <string name="backup_dialog_title">Backup/Restore NControl Settings</string>
+    <string name="confirm_backup">Backup Settings?</string>
+    <string name="confirm_restore">Restore Settings?</string>
+    <string name="ok">OK</string>
+    <string name="restore_next_boot">Restore on next boot?</string>
+    <string name="later">Later</string>
+    <string name="cancel">Cancel</string>
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+    <string name="changelog_version_format">Version <xliff:g id="version_name">%s</xliff:g></string>
+    <string-array name="call_delay_entries">
+        <item>No delay</item>
+        <item>1000ms</item>
+        <item>2500ms</item>
+        <item>Default (5000ms)</item>
+    </string-array>
+    <string-array name="call_delay_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="toggle_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="toggle_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

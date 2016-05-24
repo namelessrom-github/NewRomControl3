@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Call Mods">
+        <com.nammeless.romcontrol.prefs.MyListPreference
+            android:defaultValue="2"
+            android:entries="@array/call_delay_entries"
+            android:entryValues="@array/call_delay_values"
+            android:key="db_call_delay"
+            android:title="End Call Delay" />
+        <SwitchPreference android:title="Increasing Ringtone" android:key="db_inc_volume_disable" android:defaultValue="false" android:summaryOn="Increasing ringtone enabled" android:summaryOff="Increasing ringtone disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Auto Call Recorder">
+        <SwitchPreference android:title="Nameless Auto Call Record" android:key="nameless_auto_call_record" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <SwitchPreference android:title="Incoming call record" android:key="killprocess_call_record_in" android:dependency="nameless_auto_call_record" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <SwitchPreference android:title="Outgoing call record" android:key="killprocess_call_record_out" android:dependency="nameless_auto_call_record" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

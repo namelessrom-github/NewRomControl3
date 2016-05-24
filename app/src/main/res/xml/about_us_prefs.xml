@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/my_logo" android:layout_width="fill_parent" android:layout_height="135.0dip" />
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Nameless Team">
+        <PreferenceScreen android:icon="@drawable/ic_xda" android:title="ROM Thread" android:summary="Visit For More Info">
+            <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/note-4/snapdragon-dev/twrom-nameless-rom-t3123512" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_aditya" android:title="Er.Aditya" android:summary="The ROM Dev">
+            <intent android:icon="@drawable/ic_aditya" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=5750672" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_florian" android:title="Crimsonthunder" android:summary="The Nameless Kernel Dev, User Support">
+            <intent android:icon="@drawable/ic_florian" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=2875091" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_senthil" android:title="senthil360" android:summary="Nameless Optimizer Dev, User Support">
+            <intent android:icon="@drawable/ic_senthil" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=6773050" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_psyntific" android:title="psyntific" android:summary="Beta Tester, Thread Help, User Support">
+            <intent android:icon="@drawable/ic_psyntific" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=6773050" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_lex" android:title="Alex Muller" android:summary="Beta Tester, Thread Help, User Support">
+            <intent android:icon="@drawable/ic_lex" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=5653331" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_coolfire" android:title="CoolFire" android:summary="Beta Tester, User Support">
+            <intent android:icon="@drawable/ic_coolfire" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=227668" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_vbaschen" android:title="vbaschen" android:summary="Thread Graphics and beta testing">
+            <intent android:icon="@drawable/ic_vbaschen" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=6219915" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Special Thanks to great dev's">
+        <PreferenceScreen android:icon="@drawable/ic_anna" android:title="daxgirl" android:summary="The Rom Control Dev and for everything">
+            <intent android:icon="@drawable/ic_anna" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=4714483" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_wuby986" android:title="Wuby986" android:summary="The Rom Control Dev">
+            <intent android:icon="@drawable/ic_wuby986" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=5493353" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_kmokhtar79" android:title="kmokhtar79" android:summary="AryaMod Dev and For various Helpful Guides">
+            <intent android:icon="@drawable/ic_kmokhtar79" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=4819130" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_tdunham" android:title="tdunham" android:summary="Amazing Guides and Dev">
+            <intent android:icon="@drawable/ic_tdunham" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=1042140" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_remuntada78" android:title="remuntada78" android:summary="Amazing Guides and various mods">
+            <intent android:icon="@drawable/ic_remuntada78" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=5292754" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_martillero" android:title="Martillero" android:summary="Awesome guy , with huge knowledge and sharing..thanks aton bro">
+            <intent android:icon="@drawable/ic_remuntada78" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=4830018" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Donate">
+        <PreferenceScreen android:icon="@drawable/ic_paypal" android:title="Donate If You Like Our Work" android:summary="Paypal Link">
+            <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/donatetome.php?u=5750672" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

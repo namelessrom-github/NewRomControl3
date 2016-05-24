@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Get Your Stuff Here">
+        <PreferenceScreen android:title="DropBox Downloads">
+            <intent android:action="android.intent.action.VIEW" android:data="https://www.dropbox.com/sh/3lrzs7yr0s2q6gq/AADVTPemUNa06iVtSjFNO9Hya?dl=0 " />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="GDrive">
+            <intent android:action="android.intent.action.VIEW" android:data="https://goo.gl/Zb8Ghs " />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

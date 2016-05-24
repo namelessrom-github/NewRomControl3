@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Memory Cleaner">
+        <SwitchPreference android:title="Show memCleanView" android:key="memCleanView" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Memkiller color" android:key="memkiller_color" android:defaultValue="\#ff2aff00" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Sfinder/Qconnect">
+        <SwitchPreference android:title="Display SFinder/QConnect Panel" android:key="quick_connect_toggle" android:summaryOn="Panel is hidden" android:summaryOff="Panel is shown" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Quick Toggle Count">
+        <com.nammeless.romcontrol.prefs.MyListPreference
+            android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="toggle_number" android:defaultValue="0" android:entryValues="@array/toggle_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Toggle BackGrounds">
+        <com.nammeless.romcontrol.prefs.ThumbnailListPreference
+            android:defaultValue="0"
+            android:key="toggle_buttons_background"
+            android:title="Toggles BackGround"
+            app:drawableArray="@array/toggle_drawables"
+            app:entryList="@array/toggle_buttons_background_entries"
+            app:entryValuesList="@array/toggle_buttons_background_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Toggle Colors">
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Toggle Color" android:key="toggle_on_color" android:defaultValue="-5444864" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Toggle Circle Color" android:key="toggle_buttons_background_color" android:defaultValue="-16743267" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Toggle Text Color" android:key="toggle_text_color" android:defaultValue="-328966" alphaSlider="true" hexValue="true" />
+        <SwitchPreference android:title="Toggle Text Preference" android:key="tiles_text_visibility" android:summaryOn="Text is shown" android:summaryOff="Text is hidden" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Notification Panel Colors">
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Expanded Date Color" android:key="expanded_date_col" android:defaultValue="\#ff2aff00" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Expanded Buttons Color" android:key="expanded_btn_col" android:defaultValue="\#ff2aff00" alphaSlider="true" hexValue="true" android:summary="Set pulldown Icons color" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Header Bg Color" android:key="header_bg_color" android:summary="Reboot SystemUI" android:defaultValue="-16734780" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Toggles Bg Color" android:key="toggle_bg_color" android:summary="Reboot SystemUI" android:defaultValue="-16734780" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Brightness Slider Bg Color" android:key="slider_bg_color" android:summary="Reboot SystemUI" android:defaultValue="-16734780" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Brightness Back Color" android:key="brightness_bg_color" android:summary="Reboot SystemUI" android:defaultValue="-16734780" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Sfinder Bg Color" android:key="sfinder_bg_color" android:summary="Reboot SystemUI" android:defaultValue="-14979440" alphaSlider="true" hexValue="true" />
+        <com.nammeless.romcontrol.prefs.ColorPickerPreference
+            android:title="Notifications Colors" android:key="notification_background_color" android:summary="Reboot SystemUI" android:defaultValue="-3290165" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

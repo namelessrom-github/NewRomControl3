@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toggle_buttons_background_entries">
+        <item>Default</item>
+        <item>Convex</item>
+        <item>Concave</item>
+        <item>Glass</item>
+        <item>Convex square</item>
+        <item>Concave square</item>
+        <item>Glass square</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <array name="toggle_drawables">
+        <item>@drawable/pulldown1</item>
+        <item>@drawable/pulldown2</item>
+        <item>@drawable/pulldown3</item>
+        <item>@drawable/pulldown4</item>
+        <item>@drawable/pulldown5</item>
+        <item>@drawable/pulldown6</item>
+        <item>@drawable/pulldown7</item>
+    </array>
+    <string-array name="backup_items">
+        <item>Backup</item>
+        <item>Restore</item>
+    </string-array>
+</resources>

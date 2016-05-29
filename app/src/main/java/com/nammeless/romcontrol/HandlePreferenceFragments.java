@@ -421,8 +421,9 @@ public class HandlePreferenceFragments implements SharedPreferences.OnSharedPref
                 Toast.makeText(c, "App not installed or intent not valid", Toast.LENGTH_SHORT).show();
             }
 
-        } else if (preference.getKey() == null) {
-//            setToolbarForNested(preference);
+        } else if (preference.getKey() == null && preference.getIntent()!=null) {
+            Intent intentFromPreference = preference.getIntent();
+            c.startActivity(intentFromPreference);
         }
         return true;
     }

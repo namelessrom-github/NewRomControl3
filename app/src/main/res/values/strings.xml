@@ -140,4 +140,5 @@
         <item>9</item>
         <item>10</item>
     </string-array>
+    <string name="links_about_me">About the Add-on</string>
 </resources>

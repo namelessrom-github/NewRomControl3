@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="40.0sp"
+        android:textColor="#ffffffff"
+        android:id="@id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0px"
+        android:text="Credits And Team"
+        android:lineSpacingExtra="-8.0dip"
+        android:layout_marginStart="250.0px"
+        fontPath="fonts/Charout.ttf" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2151c9"
+        android:text="Find us"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        fontPath="fonts/JANA.ttf" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40.0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/fb"
+                android:clickable="true"
+                android:src="@drawable/ic_fb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="facebook"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40.0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/nf"
+                android:clickable="true"
+                android:src="@drawable/ic_nf"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nameless Forums"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40.0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/tel"
+                android:clickable="true"
+                android:src="@drawable/ic_tel" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Official Telegran"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40.0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/xda"
+                android:clickable="true"
+                android:src="@drawable/ic_xda"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Official Xda MM"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="25.0dp"
+    android:background="#2151c9"
+    android:text="Team"
+    android:gravity="center_horizontal"
+    android:textSize="20sp"
+    fontPath="fonts/JANA.ttf" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:id="@+id/list_view"
+        android:layout_weight="0.69">
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25.0dp"
+        android:background="#2151c9"
+        android:text="dfdfdf"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        fontPath="fonts/JANA.ttf" />
+</LinearLayout>

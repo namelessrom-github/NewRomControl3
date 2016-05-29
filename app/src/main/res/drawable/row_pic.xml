@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <nine-patch android:gravity="fill" android:src="@drawable/taskmanager_btn_default_mtrl" />
+    </item>
+    <item android:state_focused="true">
+        <nine-patch android:gravity="fill" android:src="@drawable/taskmanager_btn_default_transparency_mtrl" />
+    </item>
+    <item android:state_selected="true">
+        <nine-patch android:gravity="fill" android:src="@drawable/taskmanager_btn_default_transparency_mtrl" />
+    </item>
+    <item android:state_selected="false">
+        <nine-patch android:gravity="fill" android:src="@drawable/unfocused_bg" />
+    </item>
+</selector>

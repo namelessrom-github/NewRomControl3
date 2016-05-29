@@ -15,8 +15,12 @@
         <item name="nav_drawer_header">@drawable/header_image</item>
         <item name="android:windowBackground">@color/myInverseColor</item>
         <item name="android:windowContentTransitions">true</item>
-        <item name="nav_drawer_bg_color">#fff</item>
+        <item name="nav_drawer_bg_color">#232323</item>
         <item name="myAccentColor">@color/myAccentColor</item>
+        <item name="row_attr">@drawable/row_pic</item>
+        <item name="mynewColor">#FF17A5AB</item>
+        <item name="my_logo">@drawable/logo_dark</item>
+        <item name="corner2">@drawable/cornerbackground2</item>
     </style>
     <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->

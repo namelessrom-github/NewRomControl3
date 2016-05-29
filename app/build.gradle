@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.nammeless.romcontrol"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 23
         versionCode 4
         versionName "4.0"

@@ -11,10 +11,10 @@
             android:id="@id/textTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="110.0px"
+            android:layout_marginTop="70.0px"
             android:text="NAMMELESS"
             android:lineSpacingExtra="-8.0dip"
-            android:layout_marginStart="60.0px"
+            android:layout_marginStart="40.0px"
             fontPath="fonts/MilasianCircaBoldPERSONAL.ttf" />
 
         <RelativeLayout

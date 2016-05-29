@@ -7,4 +7,6 @@
             <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/donatetome.php?u=5750672" />
         </PreferenceScreen>
     </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Error Donating" />
+    <PreferenceScreen android:layout="@layout/donate" android:selectable="false" />
 </PreferenceScreen>

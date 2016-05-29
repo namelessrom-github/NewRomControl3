@@ -23,21 +23,26 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
@@ -167,7 +172,7 @@ public class MainViewActivity extends AppCompatActivity
                 getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new DownloadsFragment()).commitAllowingStateLoss();
                 break;
             case 7:
-                getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new AboutUsFragment()).commitAllowingStateLoss();
+                getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new AboutFragment()).commitAllowingStateLoss();
                 break;
             case 8:
                 getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new DonationFragment()).commitAllowingStateLoss();
@@ -613,4 +618,5 @@ public class MainViewActivity extends AppCompatActivity
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
+
 }

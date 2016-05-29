@@ -3,6 +3,19 @@
     <PreferenceScreen android:layout="@layout/my_logo" android:layout_width="fill_parent" android:layout_height="135.0dip" />
     <PreferenceCategory
         android:layout="@layout/preferences_category"
+        android:title="Find Us At">
+        <PreferenceScreen android:icon="@drawable/ic_nf" android:title="Nameless Forum" android:summary="Join For Future Updates">
+            <intent android:action="android.intent.action.VIEW" android:data="http://www.forum.namelessrom.com/" />
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_fb" android:title="Facebook Page" android:summary="Visit For More Info">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.facebook.com/Nameless-Rom-503069359858482/" />
+      </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/ic_tel" android:title="Telegram Group" android:summary="Join For Live Discussion">
+            <intent android:action="android.intent.action.VIEW" android:data="https://telegram.me/joinchat/AGPCgz8rMCsejJVk2JoDtA" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
         android:title="Nameless Team">
         <PreferenceScreen android:icon="@drawable/ic_xda" android:title="ROM Thread" android:summary="Visit For More Info">
             <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/note-4/snapdragon-dev/twrom-nameless-rom-t3123512" />
@@ -17,7 +30,7 @@
             <intent android:icon="@drawable/ic_senthil" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=6773050" />
         </PreferenceScreen>
         <PreferenceScreen android:icon="@drawable/ic_psyntific" android:title="psyntific" android:summary="Beta Tester, Thread Help, User Support">
-            <intent android:icon="@drawable/ic_psyntific" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=6773050" />
+            <intent android:icon="@drawable/ic_psyntific" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=4804849" />
         </PreferenceScreen>
         <PreferenceScreen android:icon="@drawable/ic_lex" android:title="Alex Muller" android:summary="Beta Tester, Thread Help, User Support">
             <intent android:icon="@drawable/ic_lex" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=5653331" />
@@ -51,11 +64,11 @@
             <intent android:icon="@drawable/ic_remuntada78" android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/member.php?u=4830018" />
         </PreferenceScreen>
     </PreferenceCategory>
-    <PreferenceCategory
-        android:layout="@layout/preferences_category"
-        android:title="Donate">
-        <PreferenceScreen android:icon="@drawable/ic_paypal" android:title="Donate If You Like Our Work" android:summary="Paypal Link">
-            <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/donatetome.php?u=5750672" />
-        </PreferenceScreen>
-    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Current Version" />
+    <PreferenceCategory android:layout="@layout/sub_category" android:title="Version" />
+    <PreferenceScreen android:layout="@layout/about_romversion" android:selectable="false" />
+    <PreferenceScreen android:layout="@layout/about_version" android:selectable="false" />
+    <PreferenceScreen android:layout="@layout/build_date" android:selectable="false" />
+    <PreferenceCategory android:layout="@layout/sub_category" android:title="Developer" />
+    <PreferenceScreen android:layout="@layout/about_me" android:selectable="false" />
 </PreferenceScreen>

@@ -18,4 +18,7 @@
 <attr name="nav_item_color_selector" format="reference|color"/>
     <attr name="nav_drawer_header" format="reference"/>
     <attr name="my_logo" format="reference" />
+    <attr name="row_attr" format="reference|color"/>
+    <attr name="mynewColor" format="color"/>
+    <attr name="corner2" format="reference" />
 </resources>

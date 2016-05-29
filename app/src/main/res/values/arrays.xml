@@ -31,4 +31,18 @@
         <item>Backup</item>
         <item>Restore</item>
     </string-array>
+    <string-array name="about_us">
+        <item>Er Aditya (Rom Dev)</item>
+        <item>Chrimsonthunder (Kernel Dev)</item>
+        <item>Senthil360 (Optimizers Dev)</item>
+        <item>psyntific (Beta Testing , User Support)</item>
+        <item>Alex Muller (Beta Testing , User Support)</item>
+        <item>CoolFire (Beta Testing , User Support)</item>
+        <item>Anna (The Rom Control Dev and for countless things)</item>
+        <item>Wuby (The Rom Control Dev and being a calm master)</item>
+        <item>kmokhtar79 (AryaMod Dev and For various Helpful Guides)</item>
+        <item>tdunham (Amazing Guides and Dev)</item>
+        <item>remuntada78 (Amazing Guides and various mods)</item>
+        <item>Martillero (Awesome guy,with huge knowledge and sharing..thanks aton bro)</item>
+    </string-array>
 </resources>

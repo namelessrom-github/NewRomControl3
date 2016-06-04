@@ -21,6 +21,6 @@
         android:textSize="20sp" android:gravity="center_vertical"
 android:backgroundTint="?attr/nav_item_color_selector"
         android:text="Nav Item"
-    fontPath="fonts/Lombok.otf" />
+    fontPath="fonts/Lobster.otf" />
 </LinearLayout>
 

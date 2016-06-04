@@ -10,7 +10,7 @@
 
     <color name="myPrimaryColor">#2151c9</color>
     <color name="myPrimaryDarkColor">#2151c9</color>
-    <color name="myAccentColor">#212121</color>
+    <color name="myAccentColor">#fff</color>
     <color name="myDrawerBackground">#FFF</color>
     <color name="myWindowBackground">#FFF</color>
     <color name="windowBgTransparent">#00000000</color>

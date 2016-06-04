@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:dependency="enable_custom_bg"
+        android:key="notification_panel_bg"
+        android:title="Select Image"/>
+    <com.nammeless.romcontrol.prefs.SeekBarPreference
+        min="0"
+        android:defaultValue="255"
+        android:dependency="enable_custom_bg"
+        android:key="notification_panel_alpha"
+        android:max="255"
+        android:title="Image opacity"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="enable_custom_bg"
+        android:summaryOff="Custom bg disabled"
+        android:summaryOn="Custom bg enabled"
+        android:title="Custom Background"/>
     <PreferenceCategory
         android:layout="@layout/preferences_category"
         android:title="Gradient StatusBar">

@@ -18,7 +18,7 @@
         <item name="nav_drawer_bg_color">#232323</item>
         <item name="myAccentColor">@color/myAccentColor</item>
         <item name="row_attr">@drawable/row_pic</item>
-        <item name="mynewColor">#FF17A5AB</item>
+        <item name="mynewColor">#2151c9</item>
         <item name="my_logo">@drawable/logo_dark</item>
         <item name="corner2">@drawable/cornerbackground2</item>
     </style>

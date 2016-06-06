@@ -172,7 +172,7 @@ public class MainViewActivity extends AppCompatActivity
                 getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new DownloadsFragment()).commitAllowingStateLoss();
                 break;
             case 7:
-                getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new AboutFragment()).commitAllowingStateLoss();
+                startActivity(new Intent(this, AboutActivity.class));
                 break;
             case 8:
                 getFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.container, new DonationFragment()).commitAllowingStateLoss();

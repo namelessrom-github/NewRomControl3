@@ -47,7 +47,7 @@ public class AboutFragment extends Fragment {
         tel.setOnClickListener(onClickListener);
         ImageView xda = (ImageView) rootview.findViewById(R.id.xda);
         xda.setOnClickListener(onClickListener);
-        names = getResources().getStringArray(R.array.about_us);
+        names = getResources().getStringArray(R.array.team_array);
         lv=(ListView) rootview.findViewById(R.id.list_view);
 
         lv.setAdapter(new CustomAdapter(icons));
@@ -91,7 +91,7 @@ public class AboutFragment extends Fragment {
         public CustomAdapter(int[] icons) {
             // TODO Auto-generated constructor stub
 
-            result = getResources().getStringArray(R.array.about_us);
+            result = getResources().getStringArray(R.array.team_array);
             imageId=icons;
             inflater = ( LayoutInflater ) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }

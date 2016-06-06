@@ -141,4 +141,5 @@
         <item>10</item>
     </string-array>
     <string name="links_about_me">About the Add-on</string>
+    <string name="rom_logo_cont_desc">rom logo</string>
 </resources>

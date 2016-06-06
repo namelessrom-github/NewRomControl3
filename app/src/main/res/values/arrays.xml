@@ -31,18 +31,53 @@
         <item>Backup</item>
         <item>Restore</item>
     </string-array>
-    <string-array name="about_us">
+    <string-array name="team_array">
         <item>Er Aditya (Rom Dev)</item>
         <item>Chrimsonthunder (Kernel Dev)</item>
         <item>Senthil360 (Optimizers Dev)</item>
         <item>psyntific (Beta Testing , User Support)</item>
         <item>Alex Muller (Beta Testing , User Support)</item>
         <item>CoolFire (Beta Testing , User Support)</item>
+    </string-array>
+    <string-array name="credits_array">
         <item>Anna (The Rom Control Dev and for countless things)</item>
         <item>Wuby (The Rom Control Dev and being a calm master)</item>
         <item>kmokhtar79 (AryaMod Dev and For various Helpful Guides)</item>
         <item>tdunham (Amazing Guides and Dev)</item>
         <item>remuntada78 (Amazing Guides and various mods)</item>
         <item>Martillero (Awesome guy,with huge knowledge and sharing..thanks aton bro)</item>
+    </string-array>
+    <array name="team_drawables">
+        <item>@drawable/ic_aditya</item>
+        <item>@drawable/ic_florian</item>
+        <item>@drawable/ic_senthil</item>
+        <item>@drawable/ic_psyntific</item>
+        <item>@drawable/ic_lex</item>
+        <item>@drawable/ic_coolfire</item>
+    </array>
+    <array name="credits_drawables">
+        <item>@drawable/ic_anna</item>
+        <item>@drawable/ic_wuby986</item>
+        <item>@drawable/ic_kmokhtar79</item>
+        <item>@drawable/ic_tdunham</item>
+        <item>@drawable/ic_remuntada78</item>
+        <item>@drawable/ic_martillero</item>
+    </array>
+    <string-array name="team_links">
+        <item>http://forum.xda-developers.com/member.php?u=5750672</item>
+        <item>http://forum.xda-developers.com/member.php?u=2875091</item>
+        <item>http://forum.xda-developers.com/member.php?u=6773050</item>
+        <item>http://forum.xda-developers.com/member.php?u=4804849</item>
+        <item>http://forum.xda-developers.com/member.php?u=5653331</item>
+        <item>http://forum.xda-developers.com/member.php?u=227668</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>http://forum.xda-developers.com/member.php?u=4714483</item>
+        <item>http://forum.xda-developers.com/member.php?u=5493353</item>
+        <item>http://forum.xda-developers.com/member.php?u=4819130</item>
+        <item>http://forum.xda-developers.com/member.php?u=1042140</item>
+        <item>http://forum.xda-developers.com/member.php?u=5292754</item>
+        <item>http://forum.xda-developers.com/member.php?u=4830018</item>
     </string-array>
 </resources>
